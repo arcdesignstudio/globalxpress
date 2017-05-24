@@ -1,0 +1,6 @@
+name: Global Xpress
+description: Company Website for Global Xpress
+input: GFM
+baseurl: /globalxpress
+markdown: kramdown
+permalink: pretty
