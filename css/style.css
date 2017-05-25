@@ -388,11 +388,26 @@ footer.row {
   text-align: left;
   text-shadow: none;
 }
+
 .card {
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
   color: #394c4a;
-  padding: 30px;
+  padding: 10px;
+}
+@media only screen and (max-width: 698px){
+  .card{
+    width: 100%;
+    padding: 0 !important;
+  }
+  #projects{
+    padding: 0 !important;
+  }
+  #portfolio{
+    padding: 0 !important;
+  }
+
+
 }
 .card h3 {
   margin-top: 0;
