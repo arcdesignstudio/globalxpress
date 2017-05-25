@@ -397,16 +397,32 @@ footer.row {
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
   color: #394c4a;
   padding: 10px;
+
 }
 @media only screen and (max-width: 698px){
   .card{
     width: 100%;
+    text-align: left !important;
+
     padding: 0 !important;
+  }
+  .carousel-caption{
+    padding: 0.3em 0.3em !important;
   }
   #projects{
     padding: 0 !important;
   }
+  #projects .row{
+    padding-bottom: 2em;
+  }
+  nav a{
+    color: #333333 !important;
+  }
+  .partners{
+    display: none !important;
+  }
   #portfolio{
+    margin-bottom: 0.5em;
     padding: 0 !important;
   }
 
