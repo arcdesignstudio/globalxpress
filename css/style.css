@@ -145,7 +145,7 @@ hr {
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: url("..//img/globalxpressheader.jpg") center bottom fixed;
+  background: url("..//img/globalxpress-header.png") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -169,7 +169,7 @@ hr {
   width: 80%;
 }
 .jumbotron .title {
-  color: #29a598;
+  color: #fff;
 }
 .jumbotron p {
   margin: 0;
