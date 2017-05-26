@@ -262,6 +262,9 @@ footer.row {
   background-color: #9da6a4;;
   color: #fffefd;
 }
+.outline.active{
+  border-color: #204d74;
+}
 .outline.green {
   border-color: #29a598 ;
   color: #fff !important;
