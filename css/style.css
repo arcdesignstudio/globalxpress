@@ -148,7 +148,7 @@ nav a{
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: url("..//img/globalxpress-header.png") center center fixed;
+  background: url("..//img/globalxpress-header.jpg") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -263,13 +263,17 @@ footer.row {
   color: #fffefd;
 }
 .outline.green {
-  border-color: #29a598;
-  color: #29a598;
+  border-color: #29a598 ;
+  color: #fff !important;
 }
 .outline.green:focus,
 .outline.green:hover {
-  background-color: #29a598;
-  color: #fffefd;
+  background-color: #29a598 !important;
+  color: #fffefd !important;
+}
+.waiting-btn{
+  background-color: #29a598 !important;
+  color: #fff !important;
 }
 .outline.white {
   border-color: #fffefd;
