@@ -13,9 +13,10 @@
         <ul class="nav navbar-nav navbar-right">
         <!--  <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
           <li><a class="scroll" href="#">About Me</a></li> -->
-          <li><a class="scroll text-white" href="#">sign in</a></li>
-          <li><button class="btn td-btn small outline pink" data-toggle="modal" data-target="#contactModal">Sign up</button></li>
+          <li><a data-toggle="modal" data-target="#login-modal" style="color: #fff !important" class="scroll button">sign in</a></li>
+          <!-- <li><button class="btn td-btn small outline pink" data-toggle="modal" data-target="#contactModal">Sign up</button></li> -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+  {% include login-form.html %}
