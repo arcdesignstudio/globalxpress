@@ -6,17 +6,45 @@ _____________________________-->
       <div class="row">
         <!-- <div class="col-xs-6 col-xs-offset-3">
           <img class="img-responsive center-block logo" src="#" alt="global express Logo">
-        </div> -->
-        <div class="col-xs-12">
+        </div> --> 
+        <div class="col-xs-12 col-md large-card">
           <h1 class="title">Welcome to global express</h1>
           <p class="subtitle" style="font-weight: 800; font-size: 2.5em">Move with Africa</p>
 
           <p></p>
-          <a data-toggle="modal" data-target="#contact-modal" class="btn td-btn btn-primary outline waiting-btn green scroll mt-30" title="Contact Us!"> Contact Us</a>
+          
+        </div>
+
+        <div class="col-md-12 contact-container">
+        <a data-toggle="modal" data-target="#contact-modal" class="btn td-btn btn-primary outline waiting-btn btn-lg green scroll mt-30" title="Contact Us!"> Contact Us</a>
         </div>
       </div>
     </div>
   </header>
+
+  <style>
+  .large-card{
+     background-color: #1c6ba0;
+    max-width: 400px;
+    padding-bottom: 0.4em;
+    margin: 0 auto !important;
+  }
+  .large-card h1{
+    font-size: 1.8em !important;
+  }
+  .large-card .subtitle{
+    font-size: 1.6em !important;
+  }
+  @media only screen and (min-width: 798px){
+    .contact-container{
+    width: 30%;
+    clear: both
+    }
+    .contact-container a{
+      width: 350px;
+    }
+  }
+  </style>
 
 
   {% include contact-form.html %}
