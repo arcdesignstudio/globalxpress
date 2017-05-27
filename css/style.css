@@ -148,7 +148,7 @@ nav a{
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: url("..//img/globalxpress-header.jpg") center center fixed;
+  background: url("..//img/globalxpress-header.png") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
