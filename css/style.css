@@ -42,8 +42,8 @@ a {
 }
 a:focus,
 a:hover {
-  background-color: #29a598;
-  color: #fffefd;
+
+  color: #fffefd !important;
 }
 hr {
   border-color: #cdd1cf;
@@ -436,6 +436,8 @@ footer.row {
 
 }
 .card h3 {
+  font-size: 14px !important;
+  font-weight: 800;
   margin-top: 0;
 }
 .card h4 {
@@ -595,4 +597,21 @@ footer.row {
   #projects .card {
     text-align: center;
   }
+}
+
+/* map */
+
+.region_div{
+  max-width: 500px !important;
+  height: auto;
+}
+
+.social-link{
+  font-size: 0.8em !important;
+  font-weight: 800 !important;
+  font-family: 'Unica One', cursive !important;
+}
+.social-link:hover{
+  color: inherit !important;
+  text-decoration: none !important;
 }
