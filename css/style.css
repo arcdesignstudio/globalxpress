@@ -42,8 +42,8 @@ a {
 }
 a:focus,
 a:hover {
-  background-color: #29a598;
-  color: #fffefd;
+
+  color: #fffefd !important;
 }
 hr {
   border-color: #cdd1cf;
@@ -64,6 +64,9 @@ hr {
   right: 0;
   top: 0;
   z-index: 1000;
+}
+nav a{
+  color: #1f1f1f !important;
 }
 .navbar-header {
   height: 80px;
@@ -145,7 +148,7 @@ hr {
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: url("..//img/globalxpress-header.png") center center fixed;
+  background: url("..//img/globalxpress-header.jpg") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -259,14 +262,21 @@ footer.row {
   background-color: #9da6a4;;
   color: #fffefd;
 }
+.outline.active{
+  border-color: #204d74;
+}
 .outline.green {
-  border-color: #29a598;
-  color: #29a598;
+  border-color: #29a598 ;
+  color: #fff !important;
 }
 .outline.green:focus,
 .outline.green:hover {
-  background-color: #29a598;
-  color: #fffefd;
+  background-color: #29a598 !important;
+  color: #fffefd !important;
+}
+.waiting-btn{
+  background-color: #29a598 !important;
+  color: #fff !important;
 }
 .outline.white {
   border-color: #fffefd;
@@ -331,7 +341,7 @@ footer.row {
 .icon {
   max-height: 90px;
 }
-.icon + p { 
+.icon + p {
   margin-top: 15px;
 }
 /* Profile Pic */
@@ -394,22 +404,40 @@ footer.row {
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
   color: #394c4a;
   padding: 10px;
+
 }
 @media only screen and (max-width: 698px){
   .card{
     width: 100%;
+    text-align: left !important;
+
     padding: 0 !important;
+  }
+  .carousel-caption{
+    padding: 0.3em 0.3em !important;
   }
   #projects{
     padding: 0 !important;
   }
+  #projects .row{
+    padding-bottom: 2em;
+  }
+  nav a{
+    color: #333333 !important;
+  }
+  .partners{
+    display: none !important;
+  }
   #portfolio{
+    margin-bottom: 0.5em;
     padding: 0 !important;
   }
 
 
 }
 .card h3 {
+  font-size: 14px !important;
+  font-weight: 800;
   margin-top: 0;
 }
 .card h4 {
@@ -569,4 +597,21 @@ footer.row {
   #projects .card {
     text-align: center;
   }
+}
+
+/* map */
+
+.region_div{
+  max-width: 500px !important;
+  height: auto;
+}
+
+.social-link{
+  font-size: 0.8em !important;
+  font-weight: 800 !important;
+  font-family: 'Unica One', cursive !important;
+}
+.social-link:hover{
+  color: inherit !important;
+  text-decoration: none !important;
 }

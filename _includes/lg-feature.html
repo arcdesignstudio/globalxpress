@@ -9,11 +9,13 @@ _____________________________-->
         </div> -->
         <div class="col-xs-12">
           <h1 class="title">Welcome to global express</h1>
+          <p class="title" style="font-weight: 800; font-size: 2.5em">Move with Africa</p>
           <p></p>
-          <p></p>
-          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span class="glyphicon glyphicon-triangle-bottom"></span> Learn more</a>
-          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span class="glyphicon glyphicon-triangle-bottom"></span> get started</a>
+          <a data-toggle="modal" data-target="#contact-modal" class="btn td-btn btn-primary outline waiting-btn green scroll mt-30" title="Contact Us!"> Contact Us</a>
         </div>
       </div>
     </div>
   </header>
+
+
+  {% include contact-form.html %}

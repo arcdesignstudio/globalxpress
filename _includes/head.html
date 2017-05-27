@@ -11,7 +11,42 @@ _____________________ -->
 
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><!-- Custom CSS
 _____________________ -->
-<link href="{{site.baseurl}}/css/flag-icons/css/flag-icon.min.css" rel="stylesheet">
-<link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
-<link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
+<link href="{{site.url}}/css/flag-icons/css/flag-icon.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/ba3900166e.js"></script>
+<link rel="stylesheet" href="{{site.url}}/css/style.css">
+<link rel="stylesheet" href="{{site.url}}/css/normalize.css">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+google.charts.load('current', {'packages':['geochart']});
+    google.charts.setOnLoadCallback(drawRegionsMap);
+
+    function drawRegionsMap() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Name'],
+        ['RW', 'Rwanda'],
+        ['CF', 'Central African Republic'],
+        ['CG', 'Congo Brazzaville'],
+        ['GA', 'Gabon'],
+        ['TD', 'Chad'],
+        ['CM', 'Cameroon'],
+        ['GQ', 'Equitorial Guinea'],
+        ['ST', 'Sao Tome & Principe'],
+        ['ML', 'Mali'],
+        ['SN', 'Senegal']
+      ]);
+
+      var options = {
+        region: '002',
+        backgroundColor: '#333333',
+        colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
+        legend: 'none'
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+      chart.draw(data, options);
+    }
+
+</script>
 </head>
