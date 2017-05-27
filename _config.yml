@@ -1,9 +1,7 @@
 name: Global Xpress
 input: GFM
-baseurl: /globalxpress
+url: globalxpress.rw
 markdown: kramdown
 permalink: pretty
-description: Global Express enables real time cross border payments between different corridors of Africa to the rest of the world. We serve Pan African transaction needs for both businesses and individuals using cutting-edge blockchain technology. 
+description: Global Express enables real time cross border payments between different corridors of Africa to the rest of the world. We serve Pan African transaction needs for both businesses and individuals using cutting-edge blockchain technology.
  Global Express is revitalizing the African financial industry by offering cheaper, faster and secure cross border payments. Our platform is powered and secured by blockchain technology, ensuring consistent access and fast settlement.
-
-
