@@ -444,8 +444,10 @@ footer.row {
 
 
 }
-.card-stack{
-  margin-top: 2em;
+@media only screen and (min-width: 992px){
+  #regions_div{
+    margin-top: 1em !important;
+  }
 }
 .card h3 {
   font-size: 18px !important;
